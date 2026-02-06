@@ -9,10 +9,10 @@ var globalSwiftSettings: [PackageDescription.SwiftSetting] = [
 let package = Package(
     name: "CRDT",
     platforms: [
-        .iOS(.v13),
-        .macOS(.v10_15),
-        .tvOS(.v13),
-        .watchOS(.v6),
+        .iOS(.v16),
+        .macOS(.v13),
+        .tvOS(.v16),
+        .watchOS(.v9),
     ],
     products: [
         .library(
