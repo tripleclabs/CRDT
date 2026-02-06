@@ -1,4 +1,4 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 6.0
 
 import PackageDescription
 
@@ -10,7 +10,7 @@ let package = Package(
     name: "CRDT",
     platforms: [
         .iOS(.v16),
-        .macOS(.v13),
+        .macOS(.v15),
         .tvOS(.v16),
         .watchOS(.v9),
     ],
